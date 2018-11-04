@@ -1,0 +1,12 @@
+/*  Date            Author    			Why              jira
+   2015-12-19       xingbin    add s2_msm8952.dts      LAFITE-237
+*/
+/dts-v1/;
+
+#include "s2_msm8952.dtsi"
+
+/ {
+	model = "Qualcomm Technologies, Inc. MSM8952 QRD SKUM";
+	compatible = "qcom,msm8952-qrd-skum", "qcom,msm8952-qrd", "qcom,msm8952", "qcom,qrd";
+	qcom,board-id= <0xb 0>;
+};

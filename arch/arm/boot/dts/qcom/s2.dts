@@ -1,0 +1,15 @@
+/*  Date            Author    	Why              jira
+   2015-12-19       xingbin    add s2.dts      LAFITE-237
+*/
+
+/dts-v1/;
+/*< LAFITE-3509 liumaoxin 20160302 begin>*/
+#include "msm8976-v1.1.dtsi"
+/*< LAFITE-3509 liumaoxin 20160302 end>*/
+#include "s2.dtsi"
+
+/ {
+	model = "Qualcomm Technologies, Inc. MSM8976 QRD SKUN";
+	compatible = "qcom,msm8976-qrd-skun", "qcom,msm8976-qrd", "qcom,msm8976", "qcom,qrd";
+	qcom,board-id= <0xb 0>;
+};

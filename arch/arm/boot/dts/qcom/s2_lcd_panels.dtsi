@@ -1,0 +1,8 @@
+/*  Date            Author    		Why						 jira
+   2015-12-19       xingbin    add s2_lcd_panels.dtsi      LAFITE-237
+   2016-01-04       xingbin    add boe(nt35596s) lcm       LAFITE-367
+*/
+#include "s2-panel-boe-nt36760-1080p-5p5boe-cmd.dtsi"
+#include "s2-panel-boe-nt35596s-1080p-5p5boe-vdo.dtsi"
+#include "s2-pane-truly-r69006-1080p-5p5lg-cmd.dtsi"
+#include "dsi-panel-nt35596-1080p-video.dtsi"
